@@ -1,0 +1,60 @@
+body {
+    background-color: rgb(163, 141, 184);
+    width: 100%;
+}
+
+.container {}
+
+h1 {
+    color: aliceblue;
+    font-family: 'Space Mono', monospace;
+    font-size: 3rem;
+    text-align: center;
+    font-weight: 300;
+}
+
+img {
+    width: 44%;
+    padding: 20px;
+    display: block;
+    margin: 0 auto;
+    border-radius: 28px;
+    border: 5px solid #554d57;
+}
+
+form {
+    padding: 30px;
+}
+
+.btn {
+    outline: none;
+    border: none;
+    cursor: pointer;
+    display: block;
+    position: relative;
+    background-color: rgb(105, 151, 107);
+    padding: 20px 160px;
+    margin: 20px auto;
+    border-radius: 20px;
+    box-shadow: 0 6px #463139
+}
+
+.btn a {
+    color: aliceblue;
+    font-family: 'Open Sans' sans-serif;
+    font-size: 1rem;
+    font-weight: 300;
+    text-transform: uppercase;
+    text-decoration: navajowhite;
+    letter-spacing: 2px;
+}
+
+.btn :hover {
+    box-shadow: 0 4px #493b3b;
+    top: 2px;
+}
+
+.btn :active {
+    box-shadow: none;
+    top: 6px;
+}
